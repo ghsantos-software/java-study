@@ -8,7 +8,7 @@ public class Gerente extends Funcionario{
     @Override
     public void calculaBonus() {
         this.salario += this.salario * 0.8;
-    }
+    } // this.salario = this.salario + (this.salario * 0.8);
 
     @Override
     public String toString() {

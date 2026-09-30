@@ -5,7 +5,7 @@ public class Desenvolvedor extends Funcionario{
         super(nome, salario);
     }
 
-    // sobrescrita onde passe alt+ins+override e chamei calcula salario
+    // sobrescrita onde passe alt+ins+override e chamei calcula bonus
     @Override
     public void calculaBonus() {
         this.salario += this.salario * 0.4;
